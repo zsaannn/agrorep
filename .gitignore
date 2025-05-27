@@ -1,0 +1,23 @@
+# Node modules (no se suben nunca)
+node_modules/
+
+# Archivos de entorno (con datos sensibles)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Directorios del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno de editores
+.vscode/
+.idea/
+
+# Salidas de build o producción (si usas algún build)
+dist/
+build/
